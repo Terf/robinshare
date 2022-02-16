@@ -1,3 +1,6 @@
+# robinshare
+Share your friends robinhood positions by periodically sending them to a mysql database.
+
 Clone and create a `.env` file like
 ```
 MYSQL_ROOT_PASSWORD=plasticdisneyfish
@@ -7,7 +10,7 @@ MYSQL_DATABASE=main
 MYSQL_PORT=3000
 MYSQL_PASSWORD=sevenfortheseven
 RH_USER=terf773
-RH_PASS=webdug872
+RH_PASS=somethinghere
 ```
 Run `python rh.py` to send holdings, or periodically run `poll.sh` as a cron job (`crontab -e`)
 ```
